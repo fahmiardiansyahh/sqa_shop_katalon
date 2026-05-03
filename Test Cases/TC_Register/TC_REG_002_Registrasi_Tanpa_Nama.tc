@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_REG_002_Registrasi_Tanpa_Nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_reg_002_registrasi_tanpa_nama</testCaseGuid>
+</TestCaseEntity>

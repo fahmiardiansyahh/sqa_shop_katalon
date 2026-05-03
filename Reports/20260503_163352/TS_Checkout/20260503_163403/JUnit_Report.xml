@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Checkout" time="212.505" tests="10" failures="0" errors="0">
+   <testsuite name="TS_Checkout" tests="10" failures="0" errors="0" time="212.505" skipped="0" timestamp="2026-05-03T09:39:37.378Z" hostname="Fahmi-PC - LAPTOP-5S4VVRHI" id="Test Suites/TS_Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Checkout\\20260503_163403"/>
+         <property name="logFiles" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Checkout\\20260503_163403\\console0.log, C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Checkout\\20260503_163403\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Fahmi-PC - LAPTOP-5S4VVRHI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="fahmi ardiansyah"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="09657c103fba5194b7c648214dffddee"/>
+         <property name="projectName" value="Katalon_SQA_Shop"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_001_Checkout_Data_Valid" time="25.411" classname="Test Cases/TC_Checkout/TC_CHK_001_Checkout_Data_Valid" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:39:37 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_001_Checkout_Data_Valid: Test Cases/TC_Checkout/TC_CHK_001_Checkout_Data_Valid
+
+03-05-2026T16:39:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:39:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:39:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:39:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:39:44 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:39:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:39:44 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:39:45 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:39:46 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:39:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:50 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:39:54 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:54 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Merdeka No.1 Jakarta"): Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:39:57 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:39:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "transfer_bank", true): All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:39:58 - [MESSAGE][PASSED] - All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:39:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-05-2026T16:40:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-05-2026T16:40:02 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*riwayat.php.*", true): Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:40:02 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/riwayat.php'
+
+03-05-2026T16:40:02 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:40:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:40:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_002_Checkout_Tanpa_Alamat" time="28.821" classname="Test Cases/TC_Checkout/TC_CHK_002_Checkout_Tanpa_Alamat" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:40:02 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_002_Checkout_Tanpa_Alamat: Test Cases/TC_Checkout/TC_CHK_002_Checkout_Tanpa_Alamat
+
+03-05-2026T16:40:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:40:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:40:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:40:04 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:07 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:40:07 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:40:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:08 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:09 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:40:22 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:40:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:40:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:40:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:40:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:40:26 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:40:26 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:40:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:28 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Checkout/textarea_alamat_pengiriman")): Text of object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman' is cleared
+
+03-05-2026T16:40:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman' is cleared
+
+03-05-2026T16:40:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "cod", true): All options with value 'cod' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:40:30 - [MESSAGE][PASSED] - All options with value 'cod' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:40:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:40:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:40:31 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*checkout.php.*", true): Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:40:31 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/checkout.php'
+
+03-05-2026T16:40:31 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:40:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:40:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_003_Checkout_Tanpa_Metode" time="18.176" classname="Test Cases/TC_Checkout/TC_CHK_003_Checkout_Tanpa_Metode" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:40:31 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_003_Checkout_Tanpa_Metode: Test Cases/TC_Checkout/TC_CHK_003_Checkout_Tanpa_Metode
+
+03-05-2026T16:40:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:40:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:40:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:40:33 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:35 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:40:35 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:40:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:36 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:37 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:40:41 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:40:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:40:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:40:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:40:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:40:45 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:40:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Merdeka No.1 Jakarta"): Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:40:48 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:40:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:40:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:40:49 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*checkout.php.*", true): Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:40:49 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/checkout.php'
+
+03-05-2026T16:40:49 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:40:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:40:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_004_Checkout_Keranjang_Kosong" time="15.428" classname="Test Cases/TC_Checkout/TC_CHK_004_Checkout_Keranjang_Kosong" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:40:49 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_004_Checkout_Keranjang_Kosong: Test Cases/TC_Checkout/TC_CHK_004_Checkout_Keranjang_Kosong
+
+03-05-2026T16:40:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:40:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:40:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:40:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:40:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:54 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:40:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:40:54 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:54 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:40:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:55 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:40:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:40:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:40:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+03-05-2026T16:40:59 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:40:59 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:40:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:00 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Test Alamat Panjang"): Text 'Jl. Test Alamat Panjang' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:02 - [MESSAGE][PASSED] - Text 'Jl. Test Alamat Panjang' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "transfer_bank", true): All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:03 - [MESSAGE][PASSED] - All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:41:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:41:05 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*checkout.php.*", true): Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:41:05 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/checkout.php'
+
+03-05-2026T16:41:05 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:41:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:41:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_005_Checkout_COD" time="25.898" classname="Test Cases/TC_Checkout/TC_CHK_005_Checkout_COD" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:41:05 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_005_Checkout_COD: Test Cases/TC_Checkout/TC_CHK_005_Checkout_COD
+
+03-05-2026T16:41:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:41:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:41:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:41:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:41:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:11 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:41:11 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:41:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:12 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:13 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:41:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:41:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:41:18 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:41:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:41:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:41:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:41:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:41:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:41:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:23 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Test No.5"): Text 'Jl. Test No.5' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:26 - [MESSAGE][PASSED] - Text 'Jl. Test No.5' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "cod", true): All options with value 'cod' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:27 - [MESSAGE][PASSED] - All options with value 'cod' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-05-2026T16:41:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-05-2026T16:41:31 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*riwayat.php.*", true): Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:41:31 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/riwayat.php'
+
+03-05-2026T16:41:31 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:41:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:41:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_006_Checkout_EWallet" time="22.468" classname="Test Cases/TC_Checkout/TC_CHK_006_Checkout_EWallet" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:41:31 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_006_Checkout_EWallet: Test Cases/TC_Checkout/TC_CHK_006_Checkout_EWallet
+
+03-05-2026T16:41:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:41:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:41:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:41:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:41:32 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:35 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:41:35 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:41:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:36 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:37 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:41:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:41:41 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:41:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_5")): Object: 'Object Repository/Page_Beranda/btn_add_cart_5' is clicked on
+
+03-05-2026T16:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_5' is clicked on
+
+03-05-2026T16:41:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:41:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:41:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:45 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:41:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:41:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:41:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Test No.10"): Text 'Jl. Test No.10' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:48 - [MESSAGE][PASSED] - Text 'Jl. Test No.10' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:41:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "e_wallet", true): All options with value 'e_wallet' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:49 - [MESSAGE][PASSED] - All options with value 'e_wallet' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:41:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:41:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-05-2026T16:41:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-05-2026T16:41:53 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*riwayat.php.*", true): Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:41:53 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/riwayat.php'
+
+03-05-2026T16:41:53 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:41:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:41:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_007_Checkout_Alamat_Kurang" time="19.347" classname="Test Cases/TC_Checkout/TC_CHK_007_Checkout_Alamat_Kurang" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:41:53 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_007_Checkout_Alamat_Kurang: Test Cases/TC_Checkout/TC_CHK_007_Checkout_Alamat_Kurang
+
+03-05-2026T16:41:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:41:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:41:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:41:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:41:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:57 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:41:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:41:57 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:41:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:58 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:59 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:03 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:42:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:42:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:07 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. A"): Text 'Jl. A' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:42:10 - [MESSAGE][PASSED] - Text 'Jl. A' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:42:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "transfer_bank", true): All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:42:11 - [MESSAGE][PASSED] - All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:42:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:42:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:42:12 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*checkout.php.*", true): Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:42:12 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/checkout.php'
+
+03-05-2026T16:42:12 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/checkout.php' and expected text '.*checkout.php.*' are matched  using regular expression
+
+03-05-2026T16:42:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:42:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_008_Checkout_Dengan_Catatan" time="23.914" classname="Test Cases/TC_Checkout/TC_CHK_008_Checkout_Dengan_Catatan" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:42:13 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_008_Checkout_Dengan_Catatan: Test Cases/TC_Checkout/TC_CHK_008_Checkout_Dengan_Catatan
+
+03-05-2026T16:42:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:42:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:42:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:42:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:42:14 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:42:18 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:42:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:42:18 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:42:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:42:19 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:42:20 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:42:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:24 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:42:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:42:27 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:27 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Merdeka No.1 Jakarta"): Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:42:30 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:42:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "transfer_bank", true): All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:42:31 - [MESSAGE][PASSED] - All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_catatan"), "Tolong packing bubble wrap"): Text 'Tolong packing bubble wrap' is set on object 'Object Repository/Page_Checkout/textarea_catatan'
+
+03-05-2026T16:42:32 - [MESSAGE][PASSED] - Text 'Tolong packing bubble wrap' is set on object 'Object Repository/Page_Checkout/textarea_catatan'
+
+03-05-2026T16:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:42:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-05-2026T16:42:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-05-2026T16:42:36 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*riwayat.php.*", true): Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:42:36 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/riwayat.php'
+
+03-05-2026T16:42:36 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:42:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:42:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_009_Checkout_Tanpa_Login" time="6.871" classname="Test Cases/TC_Checkout/TC_CHK_009_Checkout_Tanpa_Login" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:42:37 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_009_Checkout_Tanpa_Login: Test Cases/TC_Checkout/TC_CHK_009_Checkout_Tanpa_Login
+
+03-05-2026T16:42:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:42:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:42:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:42:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:42:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:41 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:42:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:42:41 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:42:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:43 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*login.php.*", true): Actual text 'https://sqashop.infinityfree.me/login.php' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:42:43 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/login.php'
+
+03-05-2026T16:42:43 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/login.php' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:42:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:42:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Checkout/TC_CHK_010_Checkout_Multiple_Produk" time="25.96" classname="Test Cases/TC_Checkout/TC_CHK_010_Checkout_Multiple_Produk" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:42:43 - [TEST_CASE][PASSED] - Test Cases/TC_Checkout/TC_CHK_010_Checkout_Multiple_Produk: Test Cases/TC_Checkout/TC_CHK_010_Checkout_Multiple_Produk
+
+03-05-2026T16:42:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:42:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:42:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:42:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:42:45 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:42:48 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:42:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:42:48 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:42:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:42:49 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:42:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:42:50 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:42:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:42:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:53 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:42:53 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:42:53 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:54 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:42:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:42:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:42:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:42:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:42:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:42:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:42:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:42:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:43:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_5")): Object: 'Object Repository/Page_Beranda/btn_add_cart_5' is clicked on
+
+03-05-2026T16:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_5' is clicked on
+
+03-05-2026T16:43:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:43:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:43:01 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:43:01 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:43:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:43:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:43:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Checkout/textarea_alamat_pengiriman"), "Jl. Merdeka No.1 Jakarta"): Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:43:04 - [MESSAGE][PASSED] - Text 'Jl. Merdeka No.1 Jakarta' is set on object 'Object Repository/Page_Checkout/textarea_alamat_pengiriman'
+
+03-05-2026T16:43:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_Checkout/select_metode_pembayaran"), "transfer_bank", true): All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:43:05 - [MESSAGE][PASSED] - All options with value 'transfer_bank' are selected in object 'Object Repository/Page_Checkout/select_metode_pembayaran'  using regular expression
+
+03-05-2026T16:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_checkout")): Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_checkout' is clicked on
+
+03-05-2026T16:43:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+03-05-2026T16:43:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+03-05-2026T16:43:09 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*riwayat.php.*", true): Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:43:09 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/riwayat.php'
+
+03-05-2026T16:43:09 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/riwayat.php' and expected text '.*riwayat.php.*' are matched  using regular expression
+
+03-05-2026T16:43:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:43:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-05-2026T16:39:37 - [TEST_SUITE][PASSED] - TS_Checkout: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

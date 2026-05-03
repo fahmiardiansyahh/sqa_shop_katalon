@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CRT_005_Tombol_Login_Untuk_Membeli</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_crt_005_tombol_login_untuk_membeli</testCaseGuid>
+</TestCaseEntity>

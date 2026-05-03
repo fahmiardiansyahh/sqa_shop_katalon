@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOG_006_Login_Tanpa_Semua_Field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_log_006_login_tanpa_semua_field</testCaseGuid>
+</TestCaseEntity>

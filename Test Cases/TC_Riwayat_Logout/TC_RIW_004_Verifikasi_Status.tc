@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RIW_004_Verifikasi_Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_riw_004_verifikasi_status</testCaseGuid>
+</TestCaseEntity>

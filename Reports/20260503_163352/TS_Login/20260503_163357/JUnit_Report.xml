@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="79.365" tests="8" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="8" failures="0" errors="0" time="79.365" skipped="0" timestamp="2026-05-03T09:36:46.281Z" hostname="Fahmi-PC - LAPTOP-5S4VVRHI" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Login\\20260503_163357"/>
+         <property name="logFiles" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Login\\20260503_163357\\console0.log, C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Login\\20260503_163357\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Fahmi-PC - LAPTOP-5S4VVRHI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="fahmi ardiansyah"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="fff83699b9de2dc53e237d0499f44dd9"/>
+         <property name="projectName" value="Katalon_SQA_Shop"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login/TC_LOG_001_Login_Valid" time="16.48" classname="Test Cases/TC_Login/TC_LOG_001_Login_Valid" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:36:46 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_001_Login_Valid: Test Cases/TC_Login/TC_LOG_001_Login_Valid
+
+03-05-2026T16:36:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:36:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:36:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:36:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:36:50 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:36:54 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:36:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:36:54 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:36:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login/input_email"), timeout): Object 'Object Repository/Page_Login/input_email' is present
+
+03-05-2026T16:36:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/input_email' is present
+
+03-05-2026T16:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:36:55 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:36:56 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:37:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:37:02 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*index.php.*", true): Actual text 'https://sqashop.infinityfree.me/index.php' and expected text '.*index.php.*' are matched  using regular expression
+
+03-05-2026T16:37:02 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/index.php'
+
+03-05-2026T16:37:02 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/index.php' and expected text '.*index.php.*' are matched  using regular expression
+
+03-05-2026T16:37:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Navbar/link_logout"), timeout): Object 'Object Repository/Page_Navbar/link_logout' is present
+
+03-05-2026T16:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Navbar/link_logout' is present
+
+03-05-2026T16:37:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_002_Login_Email_Tidak_Terdaftar" time="9.301" classname="Test Cases/TC_Login/TC_LOG_002_Login_Email_Tidak_Terdaftar" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:02 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_002_Login_Email_Tidak_Terdaftar: Test Cases/TC_Login/TC_LOG_002_Login_Email_Tidak_Terdaftar
+
+03-05-2026T16:37:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:04 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:07 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:07 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), "tidakada@test.com"): Text 'tidakada@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:08 - [MESSAGE][PASSED] - Text 'tidakada@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "Test1234"): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:08 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:37:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login/alert_message"), timeout): Object 'Object Repository/Page_Login/alert_message' is present
+
+03-05-2026T16:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/alert_message' is present
+
+03-05-2026T16:37:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_003_Login_Password_Salah" time="9.687" classname="Test Cases/TC_Login/TC_LOG_003_Login_Password_Salah" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:12 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_003_Login_Password_Salah: Test Cases/TC_Login/TC_LOG_003_Login_Password_Salah
+
+03-05-2026T16:37:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:13 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:16 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:16 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:17 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "SalahPassword"): Text 'SalahPassword' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:18 - [MESSAGE][PASSED] - Text 'SalahPassword' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:37:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:37:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Login/alert_message"), timeout): Object 'Object Repository/Page_Login/alert_message' is present
+
+03-05-2026T16:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/alert_message' is present
+
+03-05-2026T16:37:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_004_Login_Tanpa_Email" time="7.492" classname="Test Cases/TC_Login/TC_LOG_004_Login_Tanpa_Email" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:21 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_004_Login_Tanpa_Email: Test Cases/TC_Login/TC_LOG_004_Login_Tanpa_Email
+
+03-05-2026T16:37:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:23 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:26 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:26 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_email")): Text of object 'Object Repository/Page_Login/input_email' is cleared
+
+03-05-2026T16:37:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_email' is cleared
+
+03-05-2026T16:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "Test1234"): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:27 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:37:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:37:29 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*login.php.*", true): Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:29 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/login.php?i=1'
+
+03-05-2026T16:37:29 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_005_Login_Tanpa_Password" time="7.541" classname="Test Cases/TC_Login/TC_LOG_005_Login_Tanpa_Password" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:29 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_005_Login_Tanpa_Password: Test Cases/TC_Login/TC_LOG_005_Login_Tanpa_Password
+
+03-05-2026T16:37:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:31 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:34 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:34 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:34 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:34 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_password")): Text of object 'Object Repository/Page_Login/input_password' is cleared
+
+03-05-2026T16:37:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_password' is cleared
+
+03-05-2026T16:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:37:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:37:36 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*login.php.*", true): Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:36 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/login.php?i=1'
+
+03-05-2026T16:37:36 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_006_Login_Tanpa_Semua_Field" time="6.477" classname="Test Cases/TC_Login/TC_LOG_006_Login_Tanpa_Semua_Field" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:37 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_006_Login_Tanpa_Semua_Field: Test Cases/TC_Login/TC_LOG_006_Login_Tanpa_Semua_Field
+
+03-05-2026T16:37:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:41 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:41 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:41 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_email")): Text of object 'Object Repository/Page_Login/input_email' is cleared
+
+03-05-2026T16:37:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_email' is cleared
+
+03-05-2026T16:37:41 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_Login/input_password")): Text of object 'Object Repository/Page_Login/input_password' is cleared
+
+03-05-2026T16:37:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Login/input_password' is cleared
+
+03-05-2026T16:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:37:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:37:43 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*login.php.*", true): Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:43 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/login.php?i=1'
+
+03-05-2026T16:37:43 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_007_Login_Email_Invalid" time="7.917" classname="Test Cases/TC_Login/TC_LOG_007_Login_Email_Invalid" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:43 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_007_Login_Email_Invalid: Test Cases/TC_Login/TC_LOG_007_Login_Email_Invalid
+
+03-05-2026T16:37:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:44 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:48 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:48 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), "buditest"): Text 'buditest' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:49 - [MESSAGE][PASSED] - Text 'buditest' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), "Test1234"): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:49 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:37:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:37:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:37:51 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*login.php.*", true): Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:51 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/login.php?i=1'
+
+03-05-2026T16:37:51 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/login.php?i=1' and expected text '.*login.php.*' are matched  using regular expression
+
+03-05-2026T16:37:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:37:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login/TC_LOG_008_Login_Sudah_Login" time="14.24" classname="Test Cases/TC_Login/TC_LOG_008_Login_Sudah_Login" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:37:51 - [TEST_CASE][PASSED] - Test Cases/TC_Login/TC_LOG_008_Login_Sudah_Login: Test Cases/TC_Login/TC_LOG_008_Login_Sudah_Login
+
+03-05-2026T16:37:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:37:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:37:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:37:52 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:54 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:37:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:37:56 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:57 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:58 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:02 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:03 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:05 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), ".*index.php.*", true): Actual text 'https://sqashop.infinityfree.me/index.php' and expected text '.*index.php.*' are matched  using regular expression
+
+03-05-2026T16:38:05 - [MESSAGE][PASSED] - Current window's url is: 'https://sqashop.infinityfree.me/index.php'
+
+03-05-2026T16:38:05 - [MESSAGE][PASSED] - Actual text 'https://sqashop.infinityfree.me/index.php' and expected text '.*index.php.*' are matched  using regular expression
+
+03-05-2026T16:38:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:38:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-05-2026T16:36:46 - [TEST_SUITE][PASSED] - TS_Login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

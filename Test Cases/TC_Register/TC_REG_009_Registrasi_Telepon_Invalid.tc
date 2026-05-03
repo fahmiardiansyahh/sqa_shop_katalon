@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_REG_009_Registrasi_Telepon_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_reg_009_registrasi_telepon_invalid</testCaseGuid>
+</TestCaseEntity>

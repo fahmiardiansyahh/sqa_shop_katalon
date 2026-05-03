@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHK_001_Checkout_Data_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_chk_001_checkout_data_valid</testCaseGuid>
+</TestCaseEntity>

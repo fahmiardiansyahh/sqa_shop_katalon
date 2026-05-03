@@ -1,0 +1,16 @@
+# Katalon Studio generated files
+/bin/
+/Libs/
+/.classpath
+/.project
+/.settings/
+
+# Reports (optional - uncomment if you don't want to push reports)
+# /Reports/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+*.log

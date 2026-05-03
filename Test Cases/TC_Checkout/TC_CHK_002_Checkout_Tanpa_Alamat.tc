@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHK_002_Checkout_Tanpa_Alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_chk_002_checkout_tanpa_alamat</testCaseGuid>
+</TestCaseEntity>

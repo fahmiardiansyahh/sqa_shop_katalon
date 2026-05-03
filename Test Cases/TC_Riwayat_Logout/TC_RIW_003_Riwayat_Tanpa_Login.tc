@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RIW_003_Riwayat_Tanpa_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_riw_003_riwayat_tanpa_login</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_REG_010_Registrasi_Tanpa_Opsional</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_reg_010_registrasi_tanpa_opsional</testCaseGuid>
+</TestCaseEntity>

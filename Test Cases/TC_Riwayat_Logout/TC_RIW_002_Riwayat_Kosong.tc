@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RIW_002_Riwayat_Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_riw_002_riwayat_kosong</testCaseGuid>
+</TestCaseEntity>

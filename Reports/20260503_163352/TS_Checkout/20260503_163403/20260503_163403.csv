@@ -1,0 +1,206 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Checkout,Chrome 147.0.7727.138,Test Suite untuk modul Checkout - 10 test cases,,03-05-2026 16:39:37,03-05-2026 16:43:09,3m - 32.539s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_001_Checkout_Data_Valid,Chrome 147.0.7727.138,,,03-05-2026 16:39:37,03-05-2026 16:40:02,25.411s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:39:38,03-05-2026 16:39:41,3.350s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:39:41,03-05-2026 16:39:44,3.253s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:39:44,03-05-2026 16:39:44,0.077s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:39:44,03-05-2026 16:39:45,1.001s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:39:45,03-05-2026 16:39:46,0.762s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:39:46,03-05-2026 16:39:48,1.980s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:39:48,03-05-2026 16:39:50,2.048s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:39:50,03-05-2026 16:39:50,0.321s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:39:50,03-05-2026 16:39:52,2.007s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:39:52,03-05-2026 16:39:53,0.407s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:39:53,03-05-2026 16:39:54,1.010s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:39:54,03-05-2026 16:39:54,0.407s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:39:54,03-05-2026 16:39:56,2.014s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Merdeka No.1 Jakarta"")",Chrome 147.0.7727.138,,,03-05-2026 16:39:56,03-05-2026 16:39:57,0.774s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""transfer_bank"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:39:57,03-05-2026 16:39:58,1.014s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:39:58,03-05-2026 16:39:59,1.131s,PASSED
+delay(3),Chrome 147.0.7727.138,,,03-05-2026 16:39:59,03-05-2026 16:40:02,3.016s,PASSED
+"verifyMatch(getUrl(), "".*riwayat.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:40:02,03-05-2026 16:40:02,0.047s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:40:02,03-05-2026 16:40:02,0.254s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_002_Checkout_Tanpa_Alamat,Chrome 147.0.7727.138,,,03-05-2026 16:40:02,03-05-2026 16:40:31,28.821s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:40:03,03-05-2026 16:40:04,1.590s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:04,03-05-2026 16:40:07,2.981s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:40:07,03-05-2026 16:40:07,0.038s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:40:07,03-05-2026 16:40:08,0.817s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:40:08,03-05-2026 16:40:09,0.753s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:09,03-05-2026 16:40:15,6.371s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:15,03-05-2026 16:40:17,2.008s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:17,03-05-2026 16:40:22,5.265s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:22,03-05-2026 16:40:24,2.020s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:24,03-05-2026 16:40:25,0.408s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:40:25,03-05-2026 16:40:26,1.018s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:26,03-05-2026 16:40:26,0.498s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:26,03-05-2026 16:40:28,2.009s,PASSED
+"clearText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:28,03-05-2026 16:40:29,0.318s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""cod"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:40:29,03-05-2026 16:40:30,0.965s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:30,03-05-2026 16:40:30,0.408s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:40:30,03-05-2026 16:40:31,1.009s,PASSED
+"verifyMatch(getUrl(), "".*checkout.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:40:31,03-05-2026 16:40:31,0.014s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:40:31,03-05-2026 16:40:31,0.247s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_003_Checkout_Tanpa_Metode,Chrome 147.0.7727.138,,,03-05-2026 16:40:31,03-05-2026 16:40:49,18.176s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:40:31,03-05-2026 16:40:33,1.505s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:33,03-05-2026 16:40:35,2.150s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:40:35,03-05-2026 16:40:35,0.138s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:40:35,03-05-2026 16:40:36,0.848s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:40:36,03-05-2026 16:40:37,0.744s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:37,03-05-2026 16:40:39,2.145s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:39,03-05-2026 16:40:41,2.019s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:41,03-05-2026 16:40:41,0.345s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:41,03-05-2026 16:40:43,2.011s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:43,03-05-2026 16:40:44,0.388s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:40:44,03-05-2026 16:40:45,1.008s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:45,03-05-2026 16:40:45,0.358s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:45,03-05-2026 16:40:47,2.010s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Merdeka No.1 Jakarta"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:47,03-05-2026 16:40:48,0.765s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:48,03-05-2026 16:40:48,0.379s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:40:48,03-05-2026 16:40:49,1.009s,PASSED
+"verifyMatch(getUrl(), "".*checkout.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:40:49,03-05-2026 16:40:49,0.020s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:40:49,03-05-2026 16:40:49,0.258s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_004_Checkout_Keranjang_Kosong,Chrome 147.0.7727.138,,,03-05-2026 16:40:49,03-05-2026 16:41:05,15.428s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:40:50,03-05-2026 16:40:51,1.485s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:51,03-05-2026 16:40:54,2.592s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:40:54,03-05-2026 16:40:54,0.032s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:40:54,03-05-2026 16:40:54,0.798s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:40:54,03-05-2026 16:40:55,0.840s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:40:55,03-05-2026 16:40:57,1.865s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:40:57,03-05-2026 16:40:59,2.017s,PASSED
+driver = getWebDriver(),Chrome 147.0.7727.138,,,03-05-2026 16:40:59,03-05-2026 16:40:59,0.009s,PASSED
+"executeJavaScript(""localStorage.removeItem('sqa_cart')"", null)",Chrome 147.0.7727.138,,,03-05-2026 16:40:59,03-05-2026 16:40:59,0.028s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:40:59,03-05-2026 16:41:00,0.313s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:00,03-05-2026 16:41:02,2.004s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Test Alamat Panjang"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:02,03-05-2026 16:41:02,0.754s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""transfer_bank"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:02,03-05-2026 16:41:03,0.919s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:03,03-05-2026 16:41:04,0.397s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:41:04,03-05-2026 16:41:05,1.013s,PASSED
+"verifyMatch(getUrl(), "".*checkout.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:05,03-05-2026 16:41:05,0.013s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:41:05,03-05-2026 16:41:05,0.245s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_005_Checkout_COD,Chrome 147.0.7727.138,,,03-05-2026 16:41:05,03-05-2026 16:41:31,25.898s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:41:05,03-05-2026 16:41:07,1.521s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:07,03-05-2026 16:41:11,4.857s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:41:11,03-05-2026 16:41:11,0.051s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:41:11,03-05-2026 16:41:12,0.796s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:41:12,03-05-2026 16:41:13,0.741s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:13,03-05-2026 16:41:15,2.360s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:15,03-05-2026 16:41:17,2.012s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:17,03-05-2026 16:41:18,0.364s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:18,03-05-2026 16:41:20,2.011s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_2""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:20,03-05-2026 16:41:20,0.432s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:41:20,03-05-2026 16:41:21,1.014s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_2""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:21,03-05-2026 16:41:22,0.386s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:41:22,03-05-2026 16:41:23,1.011s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:23,03-05-2026 16:41:23,0.311s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:23,03-05-2026 16:41:25,2.004s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Test No.5"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:25,03-05-2026 16:41:26,0.739s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""cod"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:26,03-05-2026 16:41:27,0.934s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:27,03-05-2026 16:41:28,0.973s,PASSED
+delay(3),Chrome 147.0.7727.138,,,03-05-2026 16:41:28,03-05-2026 16:41:31,3.019s,PASSED
+"verifyMatch(getUrl(), "".*riwayat.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:31,03-05-2026 16:41:31,0.010s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:41:31,03-05-2026 16:41:31,0.265s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_006_Checkout_EWallet,Chrome 147.0.7727.138,,,03-05-2026 16:41:31,03-05-2026 16:41:53,22.468s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:41:31,03-05-2026 16:41:32,1.432s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:32,03-05-2026 16:41:35,2.962s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:41:35,03-05-2026 16:41:35,0.038s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:41:35,03-05-2026 16:41:36,0.802s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:41:36,03-05-2026 16:41:37,0.704s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:37,03-05-2026 16:41:39,2.241s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:39,03-05-2026 16:41:41,2.015s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:41,03-05-2026 16:41:41,0.377s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:41,03-05-2026 16:41:43,2.015s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_5""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:43,03-05-2026 16:41:44,0.417s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:41:44,03-05-2026 16:41:45,1.005s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:45,03-05-2026 16:41:45,0.380s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:41:45,03-05-2026 16:41:47,2.014s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Test No.10"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:47,03-05-2026 16:41:48,0.709s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""e_wallet"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:48,03-05-2026 16:41:49,0.934s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:49,03-05-2026 16:41:50,1.098s,PASSED
+delay(3),Chrome 147.0.7727.138,,,03-05-2026 16:41:50,03-05-2026 16:41:53,3.012s,PASSED
+"verifyMatch(getUrl(), "".*riwayat.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:41:53,03-05-2026 16:41:53,0.010s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:41:53,03-05-2026 16:41:53,0.228s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_007_Checkout_Alamat_Kurang,Chrome 147.0.7727.138,,,03-05-2026 16:41:53,03-05-2026 16:42:13,19.347s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:41:53,03-05-2026 16:41:55,1.483s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:41:55,03-05-2026 16:41:57,2.608s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:41:57,03-05-2026 16:41:57,0.031s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:41:57,03-05-2026 16:41:58,0.812s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:41:58,03-05-2026 16:41:59,0.740s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:41:59,03-05-2026 16:42:01,1.935s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:01,03-05-2026 16:42:03,2.008s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:03,03-05-2026 16:42:03,0.293s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:03,03-05-2026 16:42:05,2.005s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:05,03-05-2026 16:42:06,0.413s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:06,03-05-2026 16:42:07,1.013s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:07,03-05-2026 16:42:07,0.650s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:07,03-05-2026 16:42:09,2.013s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. A"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:09,03-05-2026 16:42:10,0.717s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""transfer_bank"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:42:10,03-05-2026 16:42:11,0.907s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:11,03-05-2026 16:42:11,0.385s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:11,03-05-2026 16:42:12,1.015s,PASSED
+"verifyMatch(getUrl(), "".*checkout.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:42:12,03-05-2026 16:42:12,0.010s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:42:12,03-05-2026 16:42:13,0.236s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_008_Checkout_Dengan_Catatan,Chrome 147.0.7727.138,,,03-05-2026 16:42:13,03-05-2026 16:42:37,23.914s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:42:13,03-05-2026 16:42:14,1.521s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:14,03-05-2026 16:42:18,3.843s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:42:18,03-05-2026 16:42:18,0.033s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:42:18,03-05-2026 16:42:19,0.791s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:42:19,03-05-2026 16:42:20,0.715s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:20,03-05-2026 16:42:21,1.642s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:21,03-05-2026 16:42:23,2.008s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:23,03-05-2026 16:42:24,0.500s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:24,03-05-2026 16:42:26,2.019s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:26,03-05-2026 16:42:26,0.416s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:26,03-05-2026 16:42:27,1.007s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:27,03-05-2026 16:42:27,0.299s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:27,03-05-2026 16:42:30,2.015s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Merdeka No.1 Jakarta"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:30,03-05-2026 16:42:30,0.700s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""transfer_bank"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:42:30,03-05-2026 16:42:31,0.908s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_catatan""), ""Tolong packing bubble wrap"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:31,03-05-2026 16:42:32,0.734s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:32,03-05-2026 16:42:33,1.433s,PASSED
+delay(3),Chrome 147.0.7727.138,,,03-05-2026 16:42:33,03-05-2026 16:42:36,3.007s,PASSED
+"verifyMatch(getUrl(), "".*riwayat.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:42:36,03-05-2026 16:42:36,0.010s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:42:36,03-05-2026 16:42:37,0.244s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_009_Checkout_Tanpa_Login,Chrome 147.0.7727.138,,,03-05-2026 16:42:37,03-05-2026 16:42:43,6.871s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:42:37,03-05-2026 16:42:38,1.493s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:38,03-05-2026 16:42:41,3.078s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:42:41,03-05-2026 16:42:41,0.047s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:41,03-05-2026 16:42:43,2.014s,PASSED
+"verifyMatch(getUrl(), "".*login.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:42:43,03-05-2026 16:42:43,0.013s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:42:43,03-05-2026 16:42:43,0.181s,PASSED
+,,,,,,,
+Test Cases/TC_Checkout/TC_CHK_010_Checkout_Multiple_Produk,Chrome 147.0.7727.138,,,03-05-2026 16:42:43,03-05-2026 16:43:09,25.960s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:42:43,03-05-2026 16:42:45,1.406s,PASSED
+"navigateToUrl(baseUrl + ""/login.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:45,03-05-2026 16:42:48,3.034s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:42:48,03-05-2026 16:42:48,0.043s,PASSED
+"setText(findTestObject(""Page_Login/input_email""), validEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:42:48,03-05-2026 16:42:49,0.811s,PASSED
+"setText(findTestObject(""Page_Login/input_password""), validPassword)",Chrome 147.0.7727.138,,,03-05-2026 16:42:49,03-05-2026 16:42:50,0.730s,PASSED
+"click(findTestObject(""Page_Login/btn_login""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:50,03-05-2026 16:42:51,1.574s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:51,03-05-2026 16:42:53,2.017s,PASSED
+"executeJavaScript(""localStorage.removeItem('sqa_cart')"", null)",Chrome 147.0.7727.138,,,03-05-2026 16:42:53,03-05-2026 16:42:53,0.009s,PASSED
+"navigateToUrl(baseUrl + ""/index.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:42:53,03-05-2026 16:42:54,0.393s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:42:54,03-05-2026 16:42:56,2.016s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_1""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:56,03-05-2026 16:42:56,0.405s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:56,03-05-2026 16:42:57,1.003s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_2""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:57,03-05-2026 16:42:57,0.388s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:57,03-05-2026 16:42:58,1.015s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_2""))",Chrome 147.0.7727.138,,,03-05-2026 16:42:58,03-05-2026 16:42:59,0.349s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:42:59,03-05-2026 16:43:00,1.017s,PASSED
+"click(findTestObject(""Page_Beranda/btn_add_cart_5""))",Chrome 147.0.7727.138,,,03-05-2026 16:43:00,03-05-2026 16:43:00,0.362s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:43:00,03-05-2026 16:43:01,1.004s,PASSED
+"navigateToUrl(baseUrl + ""/checkout.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:43:01,03-05-2026 16:43:01,0.340s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:43:01,03-05-2026 16:43:03,2.019s,PASSED
+"setText(findTestObject(""Page_Checkout/textarea_alamat_pengiriman""), ""Jl. Merdeka No.1 Jakarta"")",Chrome 147.0.7727.138,,,03-05-2026 16:43:03,03-05-2026 16:43:04,0.740s,PASSED
+"selectOptionByValue(findTestObject(""Page_Checkout/select_metode_pembayaran""), ""transfer_bank"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:43:04,03-05-2026 16:43:05,0.920s,PASSED
+"click(findTestObject(""Page_Checkout/btn_checkout""))",Chrome 147.0.7727.138,,,03-05-2026 16:43:05,03-05-2026 16:43:06,1.003s,PASSED
+delay(3),Chrome 147.0.7727.138,,,03-05-2026 16:43:06,03-05-2026 16:43:09,3.012s,PASSED
+"verifyMatch(getUrl(), "".*riwayat.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:43:09,03-05-2026 16:43:09,0.015s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:43:09,03-05-2026 16:43:09,0.254s,PASSED

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHK_006_Checkout_EWallet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_chk_006_checkout_ewallet</testCaseGuid>
+</TestCaseEntity>

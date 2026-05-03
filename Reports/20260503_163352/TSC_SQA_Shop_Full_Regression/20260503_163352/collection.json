@@ -1,0 +1,14 @@
+{
+  "id": "Test Suites/TSC_SQA_Shop_Full_Regression",
+  "name": "TSC_SQA_Shop_Full_Regression",
+  "reportFolder": "C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TSC_SQA_Shop_Full_Regression\\20260503_163352",
+  "startTime": 1777800881001,
+  "endTime": 1777801486657,
+  "totalPassedTestCases": "39",
+  "totalErrorTestCases": "0",
+  "totalFailedTestCases": "0",
+  "totalTestCases": "39",
+  "totalIncompleteTestCases": "0",
+  "totalSkippedTestCases": "0",
+  "description": "Test Suite Collection untuk menjalankan SEMUA test suite dan menghasilkan report keseluruhan aplikasi SQA Shop"
+}

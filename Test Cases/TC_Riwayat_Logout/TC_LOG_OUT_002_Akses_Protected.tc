@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOG_OUT_002_Akses_Protected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_log_out_002_akses_protected</testCaseGuid>
+</TestCaseEntity>

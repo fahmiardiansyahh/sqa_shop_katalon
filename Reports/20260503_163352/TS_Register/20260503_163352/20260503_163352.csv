@@ -1,0 +1,146 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Register,Chrome 147.0.7727.138,Test Suite untuk modul Register - 10 test cases,,03-05-2026 16:34:46,03-05-2026 16:36:41,1m - 55.315s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_001_Registrasi_Data_Valid,Chrome 147.0.7727.138,,,03-05-2026 16:34:46,03-05-2026 16:35:00,14.793s,PASSED
+"uniqueEmail = ""testuser_"" + System.currentTimeMillis() + ""@test.com""",Chrome 147.0.7727.138,,,03-05-2026 16:34:46,03-05-2026 16:34:46,0.015s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:34:46,03-05-2026 16:34:50,3.360s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:50,03-05-2026 16:34:53,3.738s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:34:53,03-05-2026 16:34:53,0.084s,PASSED
+"verifyElementPresent(findTestObject(""Page_Register/input_nama_lengkap""), timeout)",Chrome 147.0.7727.138,,,03-05-2026 16:34:53,03-05-2026 16:34:54,0.383s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Budi Santoso"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:54,03-05-2026 16:34:55,0.903s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), uniqueEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:34:55,03-05-2026 16:34:56,0.763s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:56,03-05-2026 16:34:56,0.753s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:56,03-05-2026 16:34:57,0.731s,PASSED
+"setText(findTestObject(""Page_Register/input_no_telepon""), ""081234567890"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:57,03-05-2026 16:34:58,0.763s,PASSED
+"setText(findTestObject(""Page_Register/textarea_alamat""), ""Jl. Merdeka No.1"")",Chrome 147.0.7727.138,,,03-05-2026 16:34:58,03-05-2026 16:34:59,0.754s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:34:59,03-05-2026 16:35:00,1.225s,PASSED
+waitForPageLoad(timeout),Chrome 147.0.7727.138,,,03-05-2026 16:35:00,03-05-2026 16:35:00,0.171s,PASSED
+"verifyMatch(getUrl(), "".*login.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:00,03-05-2026 16:35:00,0.066s,PASSED
+"verifyElementPresent(findTestObject(""Page_Login/alert_message""), timeout)",Chrome 147.0.7727.138,,,03-05-2026 16:35:00,03-05-2026 16:35:00,0.275s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:00,03-05-2026 16:35:00,0.220s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_002_Registrasi_Tanpa_Nama,Chrome 147.0.7727.138,,,03-05-2026 16:35:00,03-05-2026 16:35:10,9.267s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:01,03-05-2026 16:35:02,1.478s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:02,03-05-2026 16:35:05,2.982s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:05,03-05-2026 16:35:05,0.171s,PASSED
+"clearText(findTestObject(""Page_Register/input_nama_lengkap""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:05,03-05-2026 16:35:06,0.371s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""test2@test.com"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:06,03-05-2026 16:35:06,0.783s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:06,03-05-2026 16:35:07,0.734s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:07,03-05-2026 16:35:08,0.717s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:08,03-05-2026 16:35:08,0.391s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:35:08,03-05-2026 16:35:09,1.023s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:09,03-05-2026 16:35:09,0.017s,PASSED
+"verifyElementHasAttribute(findTestObject(""Page_Register/input_nama_lengkap""), ""class"", timeout)",Chrome 147.0.7727.138,,,03-05-2026 16:35:09,03-05-2026 16:35:10,0.277s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:10,03-05-2026 16:35:10,0.238s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_003_Registrasi_Nama_Kurang,Chrome 147.0.7727.138,,,03-05-2026 16:35:10,03-05-2026 16:35:19,9.075s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:10,03-05-2026 16:35:11,1.431s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:11,03-05-2026 16:35:14,2.754s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:14,03-05-2026 16:35:14,0.051s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Ab"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:14,03-05-2026 16:35:15,0.879s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""test3@test.com"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:15,03-05-2026 16:35:16,0.785s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:16,03-05-2026 16:35:16,0.743s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:16,03-05-2026 16:35:17,0.729s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:17,03-05-2026 16:35:18,0.401s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:35:18,03-05-2026 16:35:19,1.010s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:19,03-05-2026 16:35:19,0.016s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:19,03-05-2026 16:35:19,0.205s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_004_Registrasi_Email_Invalid,Chrome 147.0.7727.138,,,03-05-2026 16:35:19,03-05-2026 16:35:28,9.477s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:19,03-05-2026 16:35:20,1.442s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:20,03-05-2026 16:35:22,1.785s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:22,03-05-2026 16:35:24,1.389s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:24,03-05-2026 16:35:24,0.796s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""emailtanpaat"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:24,03-05-2026 16:35:25,0.877s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:25,03-05-2026 16:35:26,0.770s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:26,03-05-2026 16:35:27,0.721s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:27,03-05-2026 16:35:27,0.378s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:35:27,03-05-2026 16:35:28,1.007s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:28,03-05-2026 16:35:28,0.013s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:28,03-05-2026 16:35:28,0.233s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_005_Registrasi_Email_Duplikat,Chrome 147.0.7727.138,,,03-05-2026 16:35:28,03-05-2026 16:35:40,11.484s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:28,03-05-2026 16:35:30,1.381s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:30,03-05-2026 16:35:33,3.090s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:33,03-05-2026 16:35:33,0.059s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Budi Dua"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:33,03-05-2026 16:35:34,0.804s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""budi@test.com"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:34,03-05-2026 16:35:34,0.733s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:34,03-05-2026 16:35:35,0.722s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:35,03-05-2026 16:35:36,0.724s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:36,03-05-2026 16:35:37,1.096s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:35:37,03-05-2026 16:35:39,2.008s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:39,03-05-2026 16:35:39,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Page_Register/alert_message""), timeout)",Chrome 147.0.7727.138,,,03-05-2026 16:35:39,03-05-2026 16:35:39,0.261s,PASSED
+"alertText = getText(findTestObject(""Page_Register/alert_message""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:39,03-05-2026 16:35:40,0.294s,PASSED
+"verifyMatch(alertText, "".*Email sudah terdaftar.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:40,03-05-2026 16:35:40,0.004s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:40,03-05-2026 16:35:40,0.200s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_006_Registrasi_Password_Kurang,Chrome 147.0.7727.138,,,03-05-2026 16:35:40,03-05-2026 16:35:48,8.643s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:40,03-05-2026 16:35:41,1.422s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:41,03-05-2026 16:35:44,2.481s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:44,03-05-2026 16:35:44,0.035s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:44,03-05-2026 16:35:45,0.849s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""test6@test.com"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:45,03-05-2026 16:35:45,0.770s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""123"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:45,03-05-2026 16:35:46,0.730s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""123"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:46,03-05-2026 16:35:47,0.694s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:35:47,03-05-2026 16:35:47,0.375s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:35:47,03-05-2026 16:35:48,1.007s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:35:48,03-05-2026 16:35:48,0.008s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:35:48,03-05-2026 16:35:48,0.196s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_007_Registrasi_Password_Tidak_Cocok,Chrome 147.0.7727.138,,,03-05-2026 16:35:48,03-05-2026 16:36:08,19.926s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:35:48,03-05-2026 16:35:50,1.473s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:35:50,03-05-2026 16:35:52,2.033s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:35:52,03-05-2026 16:36:04,11.795s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:04,03-05-2026 16:36:05,0.779s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), ""test7@test.com"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:05,03-05-2026 16:36:05,0.745s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:05,03-05-2026 16:36:06,0.719s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test5678"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:06,03-05-2026 16:36:07,0.695s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:07,03-05-2026 16:36:07,0.386s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:36:07,03-05-2026 16:36:08,1.019s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:36:08,03-05-2026 16:36:08,0.011s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:36:08,03-05-2026 16:36:08,0.205s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_008_Registrasi_Tanpa_Email,Chrome 147.0.7727.138,,,03-05-2026 16:36:08,03-05-2026 16:36:16,7.985s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:36:08,03-05-2026 16:36:10,1.611s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:10,03-05-2026 16:36:12,2.170s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:36:12,03-05-2026 16:36:12,0.041s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:12,03-05-2026 16:36:13,0.777s,PASSED
+"clearText(findTestObject(""Page_Register/input_email""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:13,03-05-2026 16:36:13,0.281s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:13,03-05-2026 16:36:14,0.739s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:14,03-05-2026 16:36:15,0.693s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:15,03-05-2026 16:36:15,0.381s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:36:15,03-05-2026 16:36:16,1.011s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:36:16,03-05-2026 16:36:16,0.013s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:36:16,03-05-2026 16:36:16,0.202s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_009_Registrasi_Telepon_Invalid,Chrome 147.0.7727.138,,,03-05-2026 16:36:16,03-05-2026 16:36:29,12.584s,PASSED
+"uniqueEmail = ""test9_"" + System.currentTimeMillis() + ""@test.com""",Chrome 147.0.7727.138,,,03-05-2026 16:36:16,03-05-2026 16:36:16,0.002s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:36:16,03-05-2026 16:36:18,1.422s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:18,03-05-2026 16:36:24,5.806s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:36:24,03-05-2026 16:36:24,0.060s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:24,03-05-2026 16:36:24,0.768s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), uniqueEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:36:24,03-05-2026 16:36:25,0.728s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:25,03-05-2026 16:36:26,0.691s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:26,03-05-2026 16:36:27,0.702s,PASSED
+"setText(findTestObject(""Page_Register/input_no_telepon""), ""0812"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:27,03-05-2026 16:36:27,0.711s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:27,03-05-2026 16:36:28,0.389s,PASSED
+delay(1),Chrome 147.0.7727.138,,,03-05-2026 16:36:28,03-05-2026 16:36:29,1.006s,PASSED
+"verifyMatch(getUrl(), "".*register.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:36:29,03-05-2026 16:36:29,0.013s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:36:29,03-05-2026 16:36:29,0.207s,PASSED
+,,,,,,,
+Test Cases/TC_Register/TC_REG_010_Registrasi_Tanpa_Opsional,Chrome 147.0.7727.138,,,03-05-2026 16:36:29,03-05-2026 16:36:41,11.850s,PASSED
+"uniqueEmail = ""test10_"" + System.currentTimeMillis() + ""@test.com""",Chrome 147.0.7727.138,,,03-05-2026 16:36:29,03-05-2026 16:36:29,0.006s,PASSED
+"openBrowser("""")",Chrome 147.0.7727.138,,,03-05-2026 16:36:29,03-05-2026 16:36:30,1.427s,PASSED
+"navigateToUrl(baseUrl + ""/register.php"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:30,03-05-2026 16:36:33,2.959s,PASSED
+maximizeWindow(),Chrome 147.0.7727.138,,,03-05-2026 16:36:33,03-05-2026 16:36:33,0.052s,PASSED
+"setText(findTestObject(""Page_Register/input_nama_lengkap""), ""Test User"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:33,03-05-2026 16:36:34,0.780s,PASSED
+"setText(findTestObject(""Page_Register/input_email""), uniqueEmail)",Chrome 147.0.7727.138,,,03-05-2026 16:36:34,03-05-2026 16:36:35,0.918s,PASSED
+"setText(findTestObject(""Page_Register/input_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:35,03-05-2026 16:36:36,0.746s,PASSED
+"setText(findTestObject(""Page_Register/input_konfirmasi_password""), ""Test1234"")",Chrome 147.0.7727.138,,,03-05-2026 16:36:36,03-05-2026 16:36:37,0.696s,PASSED
+"clearText(findTestObject(""Page_Register/input_no_telepon""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:37,03-05-2026 16:36:37,0.274s,PASSED
+"clearText(findTestObject(""Page_Register/textarea_alamat""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:37,03-05-2026 16:36:37,0.270s,PASSED
+"click(findTestObject(""Page_Register/btn_register""))",Chrome 147.0.7727.138,,,03-05-2026 16:36:37,03-05-2026 16:36:39,1.402s,PASSED
+delay(2),Chrome 147.0.7727.138,,,03-05-2026 16:36:39,03-05-2026 16:36:41,2.011s,PASSED
+"verifyMatch(getUrl(), "".*login.php.*"", true)",Chrome 147.0.7727.138,,,03-05-2026 16:36:41,03-05-2026 16:36:41,0.014s,PASSED
+closeBrowser(),Chrome 147.0.7727.138,,,03-05-2026 16:36:41,03-05-2026 16:36:41,0.220s,PASSED

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOG_008_Login_Sudah_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_log_008_login_sudah_login</testCaseGuid>
+</TestCaseEntity>

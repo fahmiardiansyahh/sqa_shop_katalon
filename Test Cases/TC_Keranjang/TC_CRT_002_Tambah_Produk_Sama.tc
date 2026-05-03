@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CRT_002_Tambah_Produk_Sama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_crt_002_tambah_produk_sama</testCaseGuid>
+</TestCaseEntity>

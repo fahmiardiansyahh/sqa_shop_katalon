@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHK_003_Checkout_Tanpa_Metode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_chk_003_checkout_tanpa_metode</testCaseGuid>
+</TestCaseEntity>

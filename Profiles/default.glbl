@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <defaultValue>'https://sqashop.infinityfree.me'</defaultValue>
+      <description>Base URL aplikasi SQA Shop</description>
+      <initValue>'https://sqashop.infinityfree.me'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>'budi@test.com'</defaultValue>
+      <description>Email user test valid</description>
+      <initValue>'budi@test.com'</initValue>
+      <name>validEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>'Test1234'</defaultValue>
+      <description>Password user test valid</description>
+      <initValue>'Test1234'</initValue>
+      <name>validPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>'Budi Santoso'</defaultValue>
+      <description>Nama lengkap user test</description>
+      <initValue>'Budi Santoso'</initValue>
+      <name>validNama</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>'081234567890'</defaultValue>
+      <description>Nomor telepon valid</description>
+      <initValue>'081234567890'</initValue>
+      <name>validTelepon</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>'Jl. Merdeka No.1, Jakarta Pusat'</defaultValue>
+      <description>Alamat valid</description>
+      <initValue>'Jl. Merdeka No.1, Jakarta Pusat'</initValue>
+      <name>validAlamat</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <defaultValue>5</defaultValue>
+      <description>Timeout dalam detik</description>
+      <initValue>5</initValue>
+      <name>timeout</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

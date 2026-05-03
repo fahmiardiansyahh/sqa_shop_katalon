@@ -1,0 +1,1 @@
+Test Suites/TSC_SQA_Shop_Full_Regression

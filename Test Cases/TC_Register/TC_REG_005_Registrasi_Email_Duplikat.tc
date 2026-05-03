@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_REG_005_Registrasi_Email_Duplikat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_reg_005_registrasi_email_duplikat</testCaseGuid>
+</TestCaseEntity>

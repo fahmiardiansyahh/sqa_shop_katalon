@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHK_004_Checkout_Keranjang_Kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_chk_004_checkout_keranjang_kosong</testCaseGuid>
+</TestCaseEntity>

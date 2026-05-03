@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Keranjang" time="81.682" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Keranjang" tests="5" failures="0" errors="0" time="81.682" skipped="0" timestamp="2026-05-03T09:38:10.690Z" hostname="Fahmi-PC - LAPTOP-5S4VVRHI" id="Test Suites/TS_Keranjang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Keranjang\\20260503_163358"/>
+         <property name="logFiles" value="C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Keranjang\\20260503_163358\\console0.log, C:\\laragon\\www\\sqa_shop\\Katalon_SQA_Shop\\Reports\\20260503_163352\\TS_Keranjang\\20260503_163358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Fahmi-PC - LAPTOP-5S4VVRHI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 147.0.7727.138"/>
+         <property name="userFullName" value="fahmi ardiansyah"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="b207683d416a96fb36841ef1fb090ec1"/>
+         <property name="projectName" value="Katalon_SQA_Shop"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC_Keranjang/TC_CRT_001_Tambah_Produk" time="19.134" classname="Test Cases/TC_Keranjang/TC_CRT_001_Tambah_Produk" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:38:10 - [TEST_CASE][PASSED] - Test Cases/TC_Keranjang/TC_CRT_001_Tambah_Produk: Test Cases/TC_Keranjang/TC_CRT_001_Tambah_Produk
+
+03-05-2026T16:38:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:38:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:38:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:38:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:38:14 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:18 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:38:18 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:19 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:19 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:24 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:24 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:24 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:24 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:38:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Beranda/toast_success"), timeout): Object 'Object Repository/Page_Beranda/toast_success' is present
+
+03-05-2026T16:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beranda/toast_success' is present
+
+03-05-2026T16:38:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Beranda/cart_badge")): Object 'Object Repository/Page_Beranda/cart_badge' is visible
+
+03-05-2026T16:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beranda/cart_badge' is visible
+
+03-05-2026T16:38:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:38:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Keranjang/TC_CRT_002_Tambah_Produk_Sama" time="15.77" classname="Test Cases/TC_Keranjang/TC_CRT_002_Tambah_Produk_Sama" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:38:30 - [TEST_CASE][PASSED] - Test Cases/TC_Keranjang/TC_CRT_002_Tambah_Produk_Sama: Test Cases/TC_Keranjang/TC_CRT_002_Tambah_Produk_Sama
+
+03-05-2026T16:38:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:38:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:38:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:38:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:38:31 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:34 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:38:34 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:35 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:36 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:40 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:40 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:40 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:40 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:38:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:38:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:38:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:38:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:38:45 - [TEST_STEP][PASSED] - badgeText = getText(findTestObject("Page_Beranda/cart_badge")): Text of object 'Object Repository/Page_Beranda/cart_badge' is: '2'
+
+03-05-2026T16:38:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Beranda/cart_badge' is: '2'
+
+03-05-2026T16:38:45 - [TEST_STEP][PASSED] - verifyEqual(badgeText, "2"): Actual object '2' and expected object '2' are equal
+
+03-05-2026T16:38:45 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+03-05-2026T16:38:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:38:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Keranjang/TC_CRT_003_Hapus_Produk" time="21.518" classname="Test Cases/TC_Keranjang/TC_CRT_003_Hapus_Produk" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:38:45 - [TEST_CASE][PASSED] - Test Cases/TC_Keranjang/TC_CRT_003_Hapus_Produk: Test Cases/TC_Keranjang/TC_CRT_003_Hapus_Produk
+
+03-05-2026T16:38:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:38:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:38:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:38:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:38:47 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:53 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:38:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:38:53 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:54 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:38:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:55 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:38:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:38:59 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:59 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:38:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:59 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:38:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:39:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:39:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:03 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_Checkout/btn_remove_item")): Object: 'Object Repository/Page_Checkout/btn_remove_item' is clicked on
+
+03-05-2026T16:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/btn_remove_item' is clicked on
+
+03-05-2026T16:39:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:39:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:39:06 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Page_Checkout/span_checkout_total")): Text of object 'Object Repository/Page_Checkout/span_checkout_total' is: 'Rp 0'
+
+03-05-2026T16:39:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Checkout/span_checkout_total' is: 'Rp 0'
+
+03-05-2026T16:39:07 - [TEST_STEP][PASSED] - verifyEqual(totalText, "Rp 0"): Actual object 'Rp 0' and expected object 'Rp 0' are equal
+
+03-05-2026T16:39:07 - [MESSAGE][PASSED] - Actual object 'Rp 0' and expected object 'Rp 0' are equal
+
+03-05-2026T16:39:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:39:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Keranjang/TC_CRT_004_Cek_Total_Harga" time="17.732" classname="Test Cases/TC_Keranjang/TC_CRT_004_Cek_Total_Harga" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:39:07 - [TEST_CASE][PASSED] - Test Cases/TC_Keranjang/TC_CRT_004_Cek_Total_Harga: Test Cases/TC_Keranjang/TC_CRT_004_Cek_Total_Harga
+
+03-05-2026T16:39:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:39:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:39:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:39:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:39:08 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/login.php"): Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:39:10 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/login.php' successfully
+
+03-05-2026T16:39:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:39:11 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_email"), validEmail): Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:39:11 - [MESSAGE][PASSED] - Text 'budi@test.com' is set on object 'Object Repository/Page_Login/input_email'
+
+03-05-2026T16:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_password"), validPassword): Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:39:12 - [MESSAGE][PASSED] - Text 'Test1234' is set on object 'Object Repository/Page_Login/input_password'
+
+03-05-2026T16:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_login")): Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_login' is clicked on
+
+03-05-2026T16:39:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:17 - [TEST_STEP][PASSED] - executeJavaScript("localStorage.removeItem('sqa_cart')", null): Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:39:17 - [MESSAGE][PASSED] - Execute JavaScript 'localStorage.removeItem('sqa_cart')' successfully
+
+03-05-2026T16:39:17 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:17 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_1")): Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_1' is clicked on
+
+03-05-2026T16:39:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:39:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Beranda/btn_add_cart_2")): Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Beranda/btn_add_cart_2' is clicked on
+
+03-05-2026T16:39:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+03-05-2026T16:39:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+03-05-2026T16:39:22 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/checkout.php"): Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:22 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/checkout.php' successfully
+
+03-05-2026T16:39:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:24 - [TEST_STEP][PASSED] - totalText = getText(findTestObject("Page_Checkout/span_checkout_total")): Text of object 'Object Repository/Page_Checkout/span_checkout_total' is: 'Rp 16.750.000'
+
+03-05-2026T16:39:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Checkout/span_checkout_total' is: 'Rp 16.750.000'
+
+03-05-2026T16:39:24 - [TEST_STEP][PASSED] - verifyMatch(totalText, ".*16.750.000.*", true): Actual text 'Rp 16.750.000' and expected text '.*16.750.000.*' are matched  using regular expression
+
+03-05-2026T16:39:24 - [MESSAGE][PASSED] - Actual text 'Rp 16.750.000' and expected text '.*16.750.000.*' are matched  using regular expression
+
+03-05-2026T16:39:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:39:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Keranjang/TC_CRT_005_Tombol_Login_Untuk_Membeli" time="7.328" classname="Test Cases/TC_Keranjang/TC_CRT_005_Tombol_Login_Untuk_Membeli" status="PASSED">
+         <system-out><![CDATA[03-05-2026T16:39:25 - [TEST_CASE][PASSED] - Test Cases/TC_Keranjang/TC_CRT_005_Tombol_Login_Untuk_Membeli: Test Cases/TC_Keranjang/TC_CRT_005_Tombol_Login_Untuk_Membeli
+
+03-05-2026T16:39:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-05-2026T16:39:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-05-2026T16:39:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-05-2026T16:39:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-05-2026T16:39:26 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl + "/index.php"): Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:29 - [MESSAGE][PASSED] - Navigate to 'https://sqashop.infinityfree.me/index.php' successfully
+
+03-05-2026T16:39:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-05-2026T16:39:29 - [MESSAGE][PASSED] - Current window maximized
+
+03-05-2026T16:39:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+03-05-2026T16:39:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+03-05-2026T16:39:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Beranda/btn_login_untuk_membeli"), timeout): Object 'Object Repository/Page_Beranda/btn_login_untuk_membeli' is present
+
+03-05-2026T16:39:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Beranda/btn_login_untuk_membeli' is present
+
+03-05-2026T16:39:31 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Beranda/btn_add_cart_1"), timeout, OPTIONAL): Web element with id: 'Object Repository/Page_Beranda/btn_add_cart_1' located by 'By.xpath: //button[@id='btnAddCart1']' is not present after '5' second(s)
+
+03-05-2026T16:39:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Beranda/btn_add_cart_1' located by 'By.xpath: //button[@id='btnAddCart1']' is not present after '5' second(s)
+
+03-05-2026T16:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-05-2026T16:39:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-05-2026T16:38:10 - [TEST_SUITE][PASSED] - TS_Keranjang: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

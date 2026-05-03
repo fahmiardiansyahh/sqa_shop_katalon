@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOG_007_Login_Email_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc_log_007_login_email_invalid</testCaseGuid>
+</TestCaseEntity>
